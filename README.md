@@ -23,7 +23,7 @@ The fusion network is based on [spconv v1.2.1](https://github.com/traveller59/sp
 
 ### Download sample data
 
-Download the sample data from [here](https://drive.google.com/file/d/1RiabegvX_jo03dXyt6kXPxx0maWqz1TQ/view?usp=sharing) and place the extracted file in folder `data`.
+Download the sample data from [here](https://drive.google.com/file/d/1RiabegvX_jo03dXyt6kXPxx0maWqz1TQ/view?usp=sharing) and place the extracted file in folder `./data`.
 
 
 ### Run the demo
@@ -45,7 +45,7 @@ For more configuration of the reconstruction pipeline or changing the input data
 
 The implicit fusion network is trained on [ModelNet](https://modelnet.cs.princeton.edu/) dataset. To train our fusion network, we have to convert the mesh model in ModelNet into voxelized model and generate corresponding depth scans.
 
-We provide a sample of ModelNet data for demo, [download](https://drive.google.com/file/d/10kJw6m-QnhBPqcBbUrb8mkgaHUDMqJM8/view?usp=sharing) and put the extracted folder in `data`.
+We provide a sample of ModelNet data for demo, [download](https://drive.google.com/file/d/10kJw6m-QnhBPqcBbUrb8mkgaHUDMqJM8/view?usp=sharing) and put the extracted folder in `./data`.
 
 #### 1. Generate SDF Voxel  
 
