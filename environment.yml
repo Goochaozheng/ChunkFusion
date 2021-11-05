@@ -1,0 +1,27 @@
+name: ChunkFusion
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.7
+  - pip=20.1.1=py_1
+  - cudatoolkit=11.1
+  - pip:
+    - --find-links https://download.pytorch.org/whl/cu111/torch_stable.html
+    - numpy==1.18.1
+    - torch==1.9.0+cu111
+    - scikit-image==0.18.3
+    - trimesh==3.7.4
+    - open3d==0.13.0
+    - opencv-python==4.2.0.34
+    - easydict==1.9
+    - PyYAML==5.4.1
+    - matplotlib==3.2.0
+    - matplotlib-inline==0.1.2
+    - pyrender==0.1.43
+    - tqdm==4.43.0
+    - h5py==2.10.0
+    - tensorboard==2.2.2
+    - tensorboard-plugin-wit==1.7.0
+    - tensorboardx==2.0

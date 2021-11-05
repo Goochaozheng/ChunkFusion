@@ -1,0 +1,40 @@
+################################
+# Parameter for input data
+################################
+dataset: Demo   # dataset can be 'Demo', 'ICL-NUIM' or 'ModelNet'
+dataRoot: data/demo/
+depthScale: 1000.
+fx: 585.0
+fy: 585.0
+cx: 320.0
+cy: 240.0
+imgHeight: 480
+imgWidth: 640
+depthCut: 0     # Maximum depth, 0 for no truncating
+integrateInterval: 15
+
+################################
+# Parameter for integration
+################################
+mode: ChunkFusion   # mode should be TSDF or ChunkFusion
+withFuser: True
+withParser: True
+fuserModel: pretrained/fuser.pth
+parserModel: pretrained/parser.pth
+withBestScan: False
+padding: 4
+voxelResolution: 0.01
+chunkSize: 16
+truncation: 0.04
+minPointsPerChunk: 20
+batchSize: 512
+
+################################
+# Parameter for visualization
+################################
+meshing: True
+verbose: True
+groundTruth: False
+showPointcloud: True
+showDepth: True
+freeView: False

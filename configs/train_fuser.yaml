@@ -1,0 +1,28 @@
+# Data parameters
+dataRoot: data/ModelNet_sample/fuser_data/
+chunkSize: 16
+
+# Model parameters
+comment: fuser
+withParser: True
+# Path to parser
+parserModel: checkpoints/parser/**/best_model.pth
+w_l1: 1.0
+w_mse: 1.0
+w_sign: 1.0
+w_grad: 1.0
+lr_fuser: 1.e-4
+lr_parser: 1.e-5
+n_epochs: 10
+checkpoint: 1
+evaluateInterval: 20
+batchSize: 512
+optimizer:
+  alpha: 0.95
+  eps: 1.e-09
+  momentum: 0.9
+  weight_decay: 0.01
+scheduler:
+  step_size: 1000
+  gamma: 0.5
+tensorboard: True
