@@ -10,7 +10,7 @@ Repository for paper "**ChunkFusion: A Learning-based RGB-D 3D Reconstruction Fr
 
 ## Prerequisites
 
-ChunkFusion is based on Python 3.7. You can create the Python environment with necessary package using the `environment.yml`.
+ChunkFusion is based on Python 3.7 and implemented with PyTorch with CUDA 11. You can create the Python environment with necessary package using the `environment.yml`.
 
 ```
 conda env create -f environment.yml
