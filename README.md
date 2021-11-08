@@ -37,7 +37,7 @@ When the window prompt, press `.` to start the reconstruction. Press again to pa
 
 ![Demo Window](images/demo.png)
 
-For more configuration of the reconstruction pipeline or changing the input data, you can edit `configs/demo.yaml`, where you can tune the parameter of voxel management and visualization.
+For more configuration of the reconstruction pipeline or changing the input data, you can edit `configs/demo.yaml`, where the parameter of voxel management and visualization are specified.
 
 ## Training the Fusion Network
 
@@ -45,7 +45,7 @@ For more configuration of the reconstruction pipeline or changing the input data
 
 The implicit fusion network is trained on [ModelNet](https://modelnet.cs.princeton.edu/) dataset. To train our fusion network, we have to convert the mesh model in ModelNet into voxelized model and generate corresponding depth scans.
 
-We provide a sample of ModelNet data for demo, [download](https://drive.google.com/file/d/10kJw6m-QnhBPqcBbUrb8mkgaHUDMqJM8/view?usp=sharing) and put the extracted folder in `./data`.
+We provide a sample of ModelNet data for simple demonstration, [download](https://drive.google.com/file/d/10kJw6m-QnhBPqcBbUrb8mkgaHUDMqJM8/view?usp=sharing) and put the extracted folder in `./data`. If you want to train with your own data, you can refer to this sample data to format your data.
 
 #### 1. Generate SDF Voxel  
 
