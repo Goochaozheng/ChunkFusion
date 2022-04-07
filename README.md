@@ -7,6 +7,9 @@ Repository for paper "**ChunkFusion: A Learning-based RGB-D 3D Reconstruction Fr
  <img src="./images/sample.png" width="35%">
 </p>
 
+
+### Demo Video
+
 [![ChunkFusion](images/video_thumb.jpg)](https://youtu.be/JZbxMzHp7uc "ChunkFusion")
 
 ## Prerequisites
